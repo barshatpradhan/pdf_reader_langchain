@@ -1,9 +1,6 @@
-// import { PDFLoader } from "@langchain/community/document_loaders/fs/pdf";
-// import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
-
 import { PDFLoader } from "@langchain/community/document_loaders/fs/pdf";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
-import { FaissStore } from "@langchain/community/vectorstores/faiss";   // <-- missing
+import { FaissStore } from "@langchain/community/vectorstores/faiss";  
 import { OpenAIEmbeddings } from "@langchain/openai";      
 
 export const inject_docs = async () => {
